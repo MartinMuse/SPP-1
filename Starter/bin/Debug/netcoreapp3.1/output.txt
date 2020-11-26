@@ -1,0 +1,57 @@
+{
+  "threads": [
+    {
+      "id": 4,
+      "time": "60ms",
+      "methods": [
+        {
+          "name": "Fast",
+          "time": "60ms",
+          "class": "FastClass",
+          "methods": [
+            {
+              "name": "SuperFast",
+              "time": "1ms",
+              "class": "FastClass",
+              "methods": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "time": "276ms",
+      "methods": [
+        {
+          "name": "SuperSlow",
+          "time": "276ms",
+          "class": "SlowClass",
+          "methods": [
+            {
+              "name": "Slow",
+              "time": "155ms",
+              "class": "SlowClass",
+              "methods": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+<?xml version="1.0" encoding="utf-8"?>
+<TraceResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <thread id="4" time="60ms">
+    <method name="Fast" time="60ms" class="FastClass">
+      <method name="SuperFast" time="1ms" class="FastClass" />
+    </method>
+  </thread>
+  <thread id="1" time="276ms">
+    <method name="SuperSlow" time="276ms" class="SlowClass">
+      <method name="Slow" time="155ms" class="SlowClass" />
+    </method>
+  </thread>
+</TraceResult>
+

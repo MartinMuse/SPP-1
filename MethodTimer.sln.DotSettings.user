@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=875b01b5_002D7540_002D44d6_002D8623_002D3147e1a2b37b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestMethod1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::2478474C-58B4-4534-9E72-8D228B18B0A0::.NETCoreApp,Version=v3.1::UnitTest.UnitTest1.TestMethod1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2478474C-58B4-4534-9E72-8D228B18B0A0::.NETCoreApp,Version=v3.1::UnitTest.UnitTest1.TestMethod2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2478474C-58B4-4534-9E72-8D228B18B0A0::.NETCoreApp,Version=v3.1::UnitTest.UnitTest1.TestMethod3&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2478474C-58B4-4534-9E72-8D228B18B0A0::.NETCoreApp,Version=v3.1::UnitTest.UnitTest1.TestMethod4&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
